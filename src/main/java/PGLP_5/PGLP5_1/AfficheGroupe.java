@@ -6,7 +6,7 @@ import java.util.ArrayList;
 @SuppressWarnings("serial")
 public class AfficheGroupe implements Serializable{
 	/**
-	 * la version d’un classe pour la sérialisation 
+	 * La version d’une classe pour la sérialisation 
 	 */
 //	private static final long serialVersionUID = 1L;
 	public ArrayList<InterfacePersonnels> grp=new ArrayList<InterfacePersonnels>();
@@ -44,7 +44,7 @@ public class AfficheGroupe implements Serializable{
 		}
 		
 		/**
-		 * verifirie s'il y'a des elements dans l'arr
+		 * Verifie s'il y'a des elements dans l'arr
 		 */
 		public boolean HasNext() {
 			if(index<grp.size())

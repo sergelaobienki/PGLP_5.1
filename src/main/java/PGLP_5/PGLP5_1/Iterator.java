@@ -1,7 +1,8 @@
 package PGLP_5.PGLP5_1;
 
-public class Iterator {
+public interface Iterator {
 	boolean HasNext();
 	InterfacePersonnels Next();
+
 
 }
