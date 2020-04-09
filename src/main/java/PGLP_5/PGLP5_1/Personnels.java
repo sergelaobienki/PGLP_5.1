@@ -1,5 +1,10 @@
 package PGLP_5.PGLP5_1;
 
+import java.io.Serializable;
+import java.time.LocalDate;
+import java.util.ArrayList;
+
+@SuppressWarnings("serial")
 public class Personnels implements InterfacePersonnels, Serializable{
 	/**
 	 * a version d’un classe pour la sérialisation 

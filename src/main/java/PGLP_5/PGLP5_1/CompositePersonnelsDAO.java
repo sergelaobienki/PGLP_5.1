@@ -1,5 +1,6 @@
 package PGLP_5.PGLP5_1;
 
+@SuppressWarnings("serial")
 public class CompositePersonnelsDAO extends DAO<CompositePersonnels>{
 
 	@Override
@@ -11,7 +12,7 @@ public class CompositePersonnelsDAO extends DAO<CompositePersonnels>{
 	@Override
 	public CompositePersonnels find(String id) {
 		// TODO Auto-generated method stub
-		CompositePerso grpperso=null;		
+		CompositePersonnels grpperso=null;		
 		return grpperso;
 	}
 

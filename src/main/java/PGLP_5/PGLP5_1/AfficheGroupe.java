@@ -1,7 +1,9 @@
 package PGLP_5.PGLP5_1;
 
 import java.io.Serializable;
+import java.util.ArrayList;
 
+@SuppressWarnings("serial")
 public class AfficheGroupe implements Serializable{
 	/**
 	 * la version d’un classe pour la sérialisation 
@@ -44,7 +46,6 @@ public class AfficheGroupe implements Serializable{
 		/**
 		 * verifirie s'il y'a des elements dans l'arr
 		 */
-		@Override
 		public boolean HasNext() {
 			if(index<grp.size())
 				return true;
@@ -52,8 +53,7 @@ public class AfficheGroupe implements Serializable{
 			return false;
 		}
 
-		@Override
-		public PersonelsInter Next() {
+		public InterfacePersonnels Next() {
 			if(this.HasNext()) {
 				index++;
 				return grp.get(index-1);
@@ -66,7 +66,7 @@ public class AfficheGroupe implements Serializable{
 		
 	}
 	
-	public Iterator getIterator() {
+	public groupIterator getIterator() {
 		return new groupIterator();
 		
 	}

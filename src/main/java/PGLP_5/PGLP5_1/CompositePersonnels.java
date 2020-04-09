@@ -1,5 +1,10 @@
 package PGLP_5.PGLP5_1;
 
+import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.Collections;
+
+@SuppressWarnings("serial")
 public class CompositePersonnels implements InterfacePersonnels, Serializable{
 	
 	/**
