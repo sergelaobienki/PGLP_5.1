@@ -1,5 +1,14 @@
 package PGLP_5.PGLP5_1;
 
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
+
+import org.junit.Before;
+import org.junit.Test;
+
 public class SerialTest {
 	Personnels persoSave;
 	Personnels persoGet;
@@ -11,7 +20,7 @@ public class SerialTest {
 	  public void setup() {
 		
 		persoSave= new Personnels
-				.Builder("Derra", "Abdoul", 2).build();
+				.Builder("KI", "Serge Laobien", 1).build();
 		
 		oos = null;
 		
